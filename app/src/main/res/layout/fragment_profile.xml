@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <Button
+        android:id="@+id/bu2"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="shiftbu2"
+        android:text="About Us"
+        android:textColor="#040303"
+        android:textSize="20sp"
+        app:backgroundTint="#FFFDFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bu1" />
+
+    <Button
+        android:id="@+id/bu1"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="shiftbu1"
+        android:text="Support "
+        android:textColor="#050505"
+        android:textSize="20sp"
+        app:backgroundTint="#FDFCFC"
+        app:layout_constraintBottom_toTopOf="@+id/bu2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
