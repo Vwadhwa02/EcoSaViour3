@@ -6,7 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/app_name"
+        android:textSize="45sp"
+
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="240dp"
         android:layout_marginTop="150dp"
@@ -26,22 +40,33 @@
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    tools:src="@drawable" />
+                    android:layout_width="261dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/whatsapp_image_2023_04_14_at_11_58_16_pm" />
 
                 <ImageView
                     android:id="@+id/imageView3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="408dp"
+                    android:layout_height="match_parent"
                     android:src="@drawable/dall_e_2023_04_13_21_32_36___eco_savior_" />
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    tools:src="@drawable/whatsapp_image_2023_04_14_at_11_58_16_pm" />
+                    android:layout_width="597dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/f1" />
             </LinearLayout>
         </HorizontalScrollView>
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pnghut_rubbish_bins_waste_paper_baskets_clip_art_signage_symbol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>
