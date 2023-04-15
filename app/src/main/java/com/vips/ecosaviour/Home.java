@@ -53,7 +53,7 @@ public class Home extends AppCompatActivity {
         startActivity(view4);
     }
     public void shiftbu1(View view){
-        Intent view5 = new Intent(Home.this,Supprt.class);
+        Intent view5 = new Intent(Home.this,Support.class);
         startActivity(view5);
     }
 }
