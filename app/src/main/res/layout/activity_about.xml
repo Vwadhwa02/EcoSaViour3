@@ -23,6 +23,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Keeping Our City Clean with EcoSaViour"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="447dp" />
 

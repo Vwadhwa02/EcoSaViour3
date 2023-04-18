@@ -17,6 +17,7 @@
         android:textColor="#040303"
         android:textSize="20sp"
         app:backgroundTint="#FFFDFD"
+        app:cornerRadius="1000dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +25,7 @@
 
     <Button
         android:id="@+id/bu1"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="340dp"
         android:layout_height="48dp"
         android:layout_marginTop="240dp"
@@ -33,6 +35,7 @@
         android:textColor="#050505"
         android:textSize="20sp"
         app:backgroundTint="#FDFCFC"
+        app:cornerRadius="10000dp"
         app:layout_constraintBottom_toTopOf="@+id/bu2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"

@@ -45,15 +45,15 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="441dp"
-        android:layout_height="57dp"
+        android:layout_width="373dp"
+        android:layout_height="40dp"
         android:layout_marginTop="2dp"
         android:ems="10"
         android:hint="Address"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/btnUpload"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265"
-        tools:layout_editor_absoluteX="-41dp" />
+        app:layout_constraintVertical_bias="0.307"
+        tools:layout_editor_absoluteX="22dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
