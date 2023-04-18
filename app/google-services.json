@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326525272410",
+    "project_id": "ecosaviour-8503a",
+    "storage_bucket": "ecosaviour-8503a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326525272410:android:a3a5b102377d2caa07f363",
+        "android_client_info": {
+          "package_name": "com.vips.ecosaviour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326525272410-6diuelfe33fc41lfku61b8ev355p9r5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASc-3sDTyHSh1a_sPnToslMpFHp0GwBgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326525272410-6diuelfe33fc41lfku61b8ev355p9r5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

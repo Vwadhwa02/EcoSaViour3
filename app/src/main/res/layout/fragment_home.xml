@@ -46,13 +46,13 @@
 
                 <ImageView
                     android:id="@+id/imageView3"
-                    android:layout_width="408dp"
+                    android:layout_width="272dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/dall_e_2023_04_13_21_32_36___eco_savior_" />
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="597dp"
+                    android:layout_width="500dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/f1" />
             </LinearLayout>
@@ -61,12 +61,14 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="363dp"
+        android:layout_height="373dp"
         android:layout_marginTop="10dp"
         android:src="@drawable/pnghut_rubbish_bins_waste_paper_baskets_clip_art_signage_symbol"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
